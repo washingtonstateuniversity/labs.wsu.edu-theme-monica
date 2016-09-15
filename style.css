@@ -98,6 +98,7 @@ h5 {
 }
 h1 {
 	padding-bottom:1.2em;
+	padding-top: 1em;
 }
 p + h1 {
 		padding-top:2em;
@@ -182,6 +183,10 @@ address {
 pre {
 	padding-bottom:1.4em;
 }
+cite,
+abbr {
+	font-style: italic;
+}
 table tbody tr th {
   font-size:1.1rem;
   border-bottom:1px rgba(127,127,127,0.2) solid;
@@ -213,7 +218,6 @@ table {
 .dataTables_filter {
   margin-bottom:1em;
 }
-
 .dataTables_wrapper label input {
   height:25px;
   border-radius:0;
@@ -319,7 +323,7 @@ main textarea {
   background:#fff;
   border-radius:0;
   border:1px solid #cacaca;
-  min-height:45px;
+  min-height:35px;
   font-size:1.5rem;
   color:#585858;
   padding:.2em;
